@@ -1204,7 +1204,7 @@ void CodeEditor::addInEachLineOfSelection(const QRegularExpression &regex, const
 
 void CodeEditor::updateExtraSelections()
 {
-    QTextEdit::setExtraSelections(currentLineExtraSelections + parenthesesExtraSelections +
-                                       occurrencesExtraSelections + squigglesExtraSelections);
+    QTextEdit::setExtraSelections(currentLineExtraSelections + parenthesesExtraSelections + occurrencesExtraSelections +
+                                  squigglesExtraSelections);
 }
 } // namespace Editor
